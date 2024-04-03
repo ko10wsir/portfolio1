@@ -1,0 +1,85 @@
+/* ========responsive=======start */
+@media (max-width:1199px){
+    .aside{
+        left: -270px;
+    }
+    .main_container{
+        padding-left: 0;
+    }
+    .about .about_contant .personal_info .info_item p span{
+        display: block;
+    }
+}
+
+
+
+@media (max-width:991px){
+.home .home_info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+.home .home_img{
+    display: none;
+}
+
+.contact .contact_info_item,
+.portfolio .portfolio_item{
+    flex: 0 0 50%;
+    max-width: 50%;  
+}
+.about .about_contant .experience,
+.about .about_contant .education,
+.service .service_item{
+    flex: 0 0 100%;
+    max-width: 100%; 
+}
+}
+@media (max-width:767px){
+.contact .contact_form .col-6,
+.contact .contact_info_item,
+.portfolio .portfolio_item,
+.service .service_item,
+.about .about_contant .experience,
+.about .about_contant .education,
+.about .about_contant .personal_info{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about_contant .personal_info{
+    flex: 0 0 100%;
+    max-width: 100%;  
+}
+.about .about_contant .skills{
+    display: none;
+}
+}
+@media (max-width:500px){
+    .contact .contact_form .col-6,
+    .contact .contact_info_item,
+    .portfolio .portfolio_item,
+    .service .service_item,
+    .about .about_contant .education,
+    .about .about_contant .personal_info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .about .about_contant .personal_info{
+        flex: 0 0 100%;
+        max-width: 100%;  
+    }
+    .about .about_contant .skills{
+        display: none;
+    }
+    .hire_me{
+        display: none !important;
+    }
+    .about .about_contant .experience{
+        display: none !important;
+    }
+    /* .kowsir_sikder{
+        margin-top: -190px !important;
+    } */
+    }
+/* ========responsive=======end */
